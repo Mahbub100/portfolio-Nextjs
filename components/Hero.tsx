@@ -20,7 +20,7 @@ const Hero = ({ mainData }: HeroProps) => {
 
             <div className="absolute -z-10 min-h-screen h-full w-full">
                 <Image
-                    src="/"
+                    src="/public/"
                     layout="fill"
                     objectFit="cover"
                     loading='lazy'
@@ -34,15 +34,23 @@ const Hero = ({ mainData }: HeroProps) => {
                     <div className="flex items-center gap-1">
                         <Image unoptimized={true} alt='waving-hand' width={30} height={30} src={wavingHand} />
                         <p className="text-lg md:text-xl mt-2 md:mt-1.5">
-                            Hey
+                        Hey there!
                         </p>
                     </div>
-                    <h1 className="text-4xl md:text-6xl font-bold relative">
+                    <h2 className="text-4xl md:text-6xl font-bold relative">
                         I&apos;m {name}
-                    </h1>
+                    </h2>
+                    <p className='text-sm md:text-base text-gray-600 dark:text-gray-300'>
+                        {shortDesc}
+                        <br />
+                        <br />
+                        🚀 Exploring opportunities and side projects.
+
+                    </p>
+                
                     <div className="flex flex-row items-start md:items-center gap-1.5">
-                        <h2 className="text-lg md:text-2xl">
-                            I am into
+                        <h2 className=" text-base md:text-2xl lg:text-2xl">
+                        Specializing in 
                         </h2>
                         <Typewriter
                             options={{
@@ -51,22 +59,21 @@ const Hero = ({ mainData }: HeroProps) => {
                                 loop: true,
                                 deleteSpeed: 50,
                                 delay: 50,
-                                wrapperClassName: "text-violet-700 dark:text-violet-600 text-lg md:text-2xl font-medium",
-                                cursorClassName: "text-violet-700 dark:text-violet-600 text-lg md:text-2xl"
+                                wrapperClassName: "text-blue-700 dark:text-blue-600 text-base md:text-2xl font-semibold lg:text-2xl",
+                                cursorClassName: "text-blue-700 dark:text-blue-600 text-base md:text-2xl lg:text-2xl"
                             }}
                         />
                     </div>
 
-                    <p className='text-sm md:text-base text-gray-600 dark:text-gray-300'>
-                        {shortDesc}
-                    </p>
+                    
 
-                    {/* <a href="https://sppuprep.tech" target="_blank" rel="noopener noreferrer" className="relative whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 before:bg-violet-300 dark:before:bg-violet-600">
+                    {/* <a href="https://sppuprep.tech" target="_blank" rel="noopener noreferrer" className="relative whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 before:bg-blue-300 dark:before:bg-blue-600">
                         <span className="relative">SPPU Prep</span>
                     </a> */}
 
+<br />
                     <ScrollLink
-                        className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
+                        className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 hover:dark:bg-blue-800 transition-colors group text-white"
                         to={'about'}
                         offset={-60}
                         smooth={true}
@@ -78,7 +85,7 @@ const Hero = ({ mainData }: HeroProps) => {
                     </ScrollLink>
                 </div>
 
-                <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
+                <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-1">
                     <div className="w-56 h-56 md:w-80 md:h-80 lg:-translate-x-16">
                         <Image alt='avatar' width={1000} height={1000} className="rounded-full w-full h-full object-cover" src={heroImage} />
                     </div>

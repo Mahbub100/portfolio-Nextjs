@@ -1,22 +1,22 @@
 {
   "main": {
     "name": "Mehbub Lxr",
-    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "shortDesc": "Software Engineer. A self-taught developer with an interest in Computer Science.",
     "titles": [
       "Software Development",
       "Frontend Development",
       "Backend Development",
-     
       "Blockchain Development"
     ],
     "heroImage": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707186749/mehbub_r4vm6z.png",
     "techStackImages": [
+      "https://img.icons8.com/color/144/000000/typescript.png",
+      "https://img.icons8.com/color/144/000000/nextjs.png",
       "https://img.icons8.com/color/144/000000/material-ui.png",
-      "https://img.icons8.com/color/144/000000/html-5--v1.png",
-      "https://img.icons8.com/color/144/000000/redux.png",
-      "https://img.icons8.com/color/144/000000/chakra-ui.png",
-      "https://img.icons8.com/color/144/000000/chakra-ui.png",
-      "https://img.icons8.com/color/144/000000/chakra-ui.png"
+      "https://img.icons8.com/color/144/000000/html-5--v1.png"
+    
+      
+      
     ]
   },
   "about": {
@@ -34,14 +34,79 @@
       "category": "Frontend"
     },
     {
+      "name": "Next",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Javascript",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "tailwind",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "GitHub",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "Mongodb",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "Mysql",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "aws",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "Redux",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "MaterialUI",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "python",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "Elementor",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
+      "name": "Apacha",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "others"
+    },
+    {
       "name": "Express",
       "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
       "category": "Backend"
-    },
-    {
-      "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-      "category": "Frontend"
     },
     {
       "name": "Firebase",
@@ -49,10 +114,21 @@
       "category": "Backend"
     },
     {
-      "name": "GitHub",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "category": "Tools"
+      "name": "Node",
+      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Php",
+      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Wordpress",
+      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "category": "Backend"
     }
+    
   ],
   "projects": [
     {
