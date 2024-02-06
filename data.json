@@ -27,24 +27,6 @@
     "callUrl": "",
     "resumeUrl": ""
   },
-  "socials": [
-    {
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
-    },
-    {
-      "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
-    },
-    {
-      "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
-    },
-    {
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
-    }
-  ],
   "skills": [
     {
       "name": "React",
