@@ -24,18 +24,18 @@
     "aboutImageCaption": "< Let's do something 🚀/>",
     "title": "Mehbub Laskar",
     "about": "An aspiring Full-Stack developer based in India, currently pursuing a degree in Computer Science Engineering. My journey in web development began during my first year of college. Eager to contribute to innovative projects, I strive to create beautiful, functional, and user-friendly websites and applications. Committed to continuous learning, I enjoy building projects to enhance my skills and expertise in the dynamic field of technology.",
-    "callUrl": "https://abdulrahman.id/",
+    "callUrl": "",
     "resumeUrl": "https://abdulrahman.id/"
   },
   "skills": [
     {
-      "name": "React",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "name": "Next",
+      "image": "https://img.icons8.com/color/144/null/nextjs--v1.png",
       "category": "Frontend"
     },
     {
-      "name": "Next",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "name": "React",
+      "image": "https://img.icons8.com/color/144/null/react-native--v1.png",
       "category": "Frontend"
     },
     {
@@ -45,12 +45,17 @@
     },
     {
       "name": "tailwind",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "image": "https://img.icons8.com/color/144/null/tailwindcss--v1.png",
       "category": "Frontend"
     },
     {
       "name": "Bootstrap",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "image": "https://img.icons8.com/color/144/null/bootstrap--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Sass",
+      "image": "https://img.icons8.com/color/144/null/sass--v1.png",
       "category": "Frontend"
     },
     {
@@ -60,52 +65,72 @@
     },
     {
       "name": "Git",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "image": "https://img.icons8.com/?size=48&id=20906&format=png",
       "category": "others"
     },
     {
       "name": "Mongodb",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "image": "https://img.icons8.com/?size=48&id=74402&format=png",
       "category": "others"
     },
     {
       "name": "Mysql",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "image": "https://img.icons8.com/?size=50&id=11625&format=png",
       "category": "others"
     },
     {
       "name": "aws",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "image": "https://img.icons8.com/?size=80&id=mHi46t5vguiz&format=png",
       "category": "others"
     },
     {
       "name": "Redux",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "image": "https://img.icons8.com/material-outlined/96/null/redux.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "image": "https://img.icons8.com/color/144/000000/typescript.png",
       "category": "others"
     },
     {
-      "name": "MaterialUI",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "name": "Python",
+      "image": "https://img.icons8.com/?size=48&id=13441&format=png",
       "category": "others"
     },
     {
-      "name": "python",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "name": "C++",
+      "image": "https://img.icons8.com/?size=48&id=TpULddJc4gTh&format=png",
       "category": "others"
     },
     {
       "name": "Elementor",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "image": "https://img.icons8.com/?size=80&id=BnOyV43gP7fZ&format=png",
       "category": "others"
     },
     {
-      "name": "Apacha",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "name": "Wordpress",
+      "image": "https://img.icons8.com/material-outlined/96/null/wordpress.png",
+      "category": "others"
+    },
+    {
+      "name": "Shopify",
+      "image": "https://img.icons8.com/?size=80&id=rhNJ4aVAWrpL&format=png",
+      "category": "others"
+    },
+    {
+      "name": "Webflow",
+      "image": "https://img.icons8.com/?size=48&id=ktrJ12qa5f65&format=png",
+      "category": "others"
+    },
+    {
+      "name": "Figma",
+      "image": "https://img.icons8.com/?size=48&id=zfHRZ6i1Wg0U&format=png",
       "category": "others"
     },
     {
       "name": "Express",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "image": "https://img.icons8.com/color/144/null/express--v1.png",
       "category": "Backend"
     },
     {
@@ -115,27 +140,49 @@
     },
     {
       "name": "Node",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "image": "https://img.icons8.com/color/144/null/nodejs.png",
       "category": "Backend"
     },
     {
       "name": "Php",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "image": "https://img.icons8.com/color/144/null/php.png",
       "category": "Backend"
     },
     {
-      "name": "Wordpress",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "name": "Next",
+      "image": "https://img.icons8.com/color/144/null/nextjs.png",
       "category": "Backend"
     }
     
   ],
   "projects": [
     {
+      "name": "Service Website",
+      "techstack": "HTML5, CSS3, JavaScript, Reactjs",
+      "category": "OTHER",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707320012/My-react-prfghroject_djmpbr.png",
+      "links": {
+        "code": "https://github.com/Mahbub100",
+        "video": "",
+        "visit": "https://service-50.netlify.app/"
+      }
+    },
+    {
+      "name": "Livestream Site",
+      "techstack": "HTML5, CSS3, JavaScript, Agora",
+      "category": "OTHER",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707320009/MeetUP_bzb3gj.png",
+      "links": {
+        "code": "https://github.com/Mahbub100",
+        "video": "",
+        "visit": "https://meetup1.vercel.app/"
+      }
+    },
+    {
       "name": "Project Title",
       "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "Other",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "category": "FULL STACK",
+      "image": "",
       "links": {
         "code": "",
         "video": "",
@@ -143,31 +190,38 @@
       }
     },
     {
-      "name": "Project Title",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "MERN STACK",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "Affiliate marketing Blog",
+      "techstack": "HTML5, CSS3, Blogger",
+      "category": "OTHER",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707318892/Best-Deals_inlvdv.png",
       "links": {
         "code": "",
         "video": "",
-        "visit": ""
+        "visit": "https://www.coin360.in/"
       }
     }
   ],
   "educations": [
     {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
+      "institute": "Govt. Boys Silchar  | SEBA",
+      "degree": "HS Science",
+      "duration": "2019 - 2021",
+      "desc": [
+        "Familiar With Physics",
+        "Familiar With Chemistry",
+        "Familiar With Mathematics"
+      ]
     },
     {
-      "institute": "XYZ College Of Engineering",
+      "institute": "Barak Velly Engineering College",
       "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
+      "duration": "2021 - 2025",
       "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
+        "Pursuing CS Engineering course from ASTU University",
+        "Familiar with software development methodologies and project management practices. ",
+        "Familiar With Object oriented Programming",
+        "Familiar With Data Stracture and algoritham",
+        "Familiar With Computer Network"
       ]
     }
   ],
@@ -176,6 +230,16 @@
       "company": "ABC Tech Solutions",
       "position": "Web Developer",
       "duration": "2020 -2022",
+      "desc": [
+        "Assisted with design and development of project.",
+        "Worked on building the product from scratch and built multiple dashboards.",
+        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+      ]
+    },
+    {
+      "company": "ABC Tech Solutions",
+      "position": "Web Developer",
+      "duration": "2023 - present",
       "desc": [
         "Assisted with design and development of project.",
         "Worked on building the product from scratch and built multiple dashboards.",
