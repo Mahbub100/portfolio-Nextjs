@@ -144,11 +144,6 @@
       "category": "Backend"
     },
     {
-      "name": "Php",
-      "image": "https://img.icons8.com/color/144/null/php.png",
-      "category": "Backend"
-    },
-    {
       "name": "Next",
       "image": "https://img.icons8.com/color/144/null/nextjs.png",
       "category": "Backend"
@@ -226,34 +221,32 @@
     }
   ],
   "experiences": [
+  
     {
       "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
-      "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
-      ]
-    },
-    {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
+      "position": "Fullstack Developer",
       "duration": "2023 - present",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Involved in project design and development, leading the creation of multiple dashboards.",
+        "Proficient in JavaScript, TailwindCSS, ReactJS, NodeJS, Nextjs"
       ]
     },
     {
-      "company": "XYZ Tech Solutions",
+      "company": "Bharat-Intern",
       "position": "Web Developer",
-      "duration": "2022 - present",
+      "duration": "2022",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Contributed to project design and development",
+        "Skills: Reactjs, Nodejs"
+      ]
+    },
+    {
+      "company": "Code-Soft",
+      "position": "Frontend Developer",
+      "duration": "2021",
+      "desc": [
+        "Played a pivotal role in crafting the product's front-end architecture and implementing multiple interactive design.",
+"Expertise in: HTML · CSS · JavaScript · TailwindCSS · ReactJS ·"
       ]
     }
   ]
