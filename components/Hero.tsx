@@ -37,7 +37,7 @@ const Hero = ({ mainData }: HeroProps) => {
                         Hey there!
                         </p>
                     </div>
-                    <h2 className="text-4xl md:text-6xl font-bold relative">
+                    <h2 className="text-2xl md:text-5xl font-bold relative">
                         I&apos;m {name}
                     </h2>
                     <p className='text-sm md:text-base text-gray-600 dark:text-gray-300'>

@@ -23,7 +23,7 @@ const About = ({ aboutData, name }: Props) => {
             <div className="w-full lg:w-11/12 2xl:w-4/5 mt-2 lg:mt-20 mx-auto flex flex-col md:gap-4 lg:flex-row justify-between items-center">
                 <div className="p-3 w-56 self-start md:w-2/5 lg:w-72 bg-white dark:bg-grey-800 flex flex-col gap-2 items-center rounded-2xl mx-auto lg:mx-16 hover:-translate-y-2 transition-transform duration-300 lg:-rotate-3">
                     <Image alt="profile" width={1000} height={1000} loading={'lazy'} className="w-full h-60 md:h-80 rounded-2xl object-cover grayscale hover:grayscale-0 transition-all bg-blue-100" src={aboutImage} />
-                    <span className="font-medium font-sans">{aboutImageCaption || '< I Build Stuff 🚀 />'}</span>
+                    <span className="font-medium font-sans animate-bounce">{aboutImageCaption || '< I Build Stuff 🚀 />'}</span>
                 </div>
 
                 <div className="flex-1 text-left mx-4 mt-4 md:mt-0 md:mx-0 md:p-6">
@@ -32,7 +32,7 @@ const About = ({ aboutData, name }: Props) => {
                         <p className='text-blue-800 w-fit rounded py-1 px-2 text-xl dark:text-blue-600 bg-blue-50 dark:bg-blue-900/10'>{title}</p>
                         <p className="text-sm md:text-base my-2 text-gray-600 dark:text-gray-300">{about}</p>
                         <div className="flex items-center gap-4 md:mt-4">
-                            {resumeUrl.trim() && <Link href={resumeUrl} target="_blank" className="text-sm md:text-base bg-blue-600 dark:bg-blue-700 text-white w-fit rounded-md py-2 px-6 hover:shadow-xl transition-shadow">Resume</Link>}
+                            {resumeUrl.trim() && <Link href={resumeUrl} target="_blank" className="text-sm md:text-base bg-blue-600 dark:bg-blue-700 text-white w-fit rounded-md py-2 px-6 hover:shadow-xl transition-shadow">Download Resume</Link>}
                             {callUrl.trim() && <Link href={callUrl} target="_blank" className="text-blue-600 flex items-center gap-1 hover:bg-blue-50 hover:dark:bg-blue-900/10 py-2 px-4 transition-colors rounded-md">Book a 1:1 call <BiLinkExternal /> </Link>}
                         </div>
                     </div>

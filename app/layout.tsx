@@ -28,6 +28,7 @@ export default function RootLayout({
         <body className={`${poppins.className} font-poppins bg-gray-100/50 dark:bg-grey-900 text-black dark:text-white overflow-x-hidden`}>
           {/* <body className='bg-gray-100/50 dark:bg-grey-900 text-black dark:text-white overflow-x-hidden'> */}
           {children}
+
           <Analytics />
         </body>
       </ThemeProvider>

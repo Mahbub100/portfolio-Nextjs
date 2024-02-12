@@ -41,11 +41,12 @@ html {
 }
 
 a.youtube {
-  color: #eb3223;
+  color: #ff1904;
+  padding: 5px;
 }
 
 a.facebook {
-  color: #4968ad;
+  color: #0147df;
 }
 
 a.twitter {

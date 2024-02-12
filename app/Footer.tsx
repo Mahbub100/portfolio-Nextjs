@@ -8,15 +8,15 @@ import {
 export default function Footer() {
   return (
     <footer className=" bg-black text-gray-400 lg:text-left">
-      <div className="flex items-center justify-center border-b-1 border-neutral-200 pt-5 lg:justify-between lg:px-44">
-        <div className="mr-12 hidden lg:block">
-          <span>Get connected with us on social networks:</span>
+      <div className="flex items-center justify-center border-b-1 border-neutral-200 pt-5 lg:justify-between lg:px-44 flex-col lg:flex-row">
+        <div className=" lg:block p-5">
+          <span>Keep Rising Connect With Me Over <span className=" text-blue-600">Social Media</span></span>
         </div>
         {/* <!-- Social network icons container --> */}
         <div className="flex justify-center">
           <a className="mr-6">
             <a
-              href="https://www.youtube.com/c/jamesqquick"
+              href="/"
               className="youtube social"
             >
               <FontAwesomeIcon icon={faYoutube} size="2x" />
@@ -24,7 +24,7 @@ export default function Footer() {
           </a>
           <a className="mr-6 ">
             <a
-              href="https://www.facebook.com/learnbuildteach/"
+              href="/"
               className="facebook social"
             >
               <FontAwesomeIcon icon={faFacebook} size="2x" />
@@ -33,16 +33,9 @@ export default function Footer() {
 
           <a className="mr-6">
           <a
-              href="https://www.facebook.com/learnbuildteach/"
+              href="/"
               className="facebook social"
-            >
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
-          </a>
-          <a className="mr-6">
-          <a
-              href="https://www.facebook.com/learnbuildteach/"
-              className="facebook social"
+              
             >
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
@@ -57,25 +50,29 @@ export default function Footer() {
           {/* <!-- TW Elements section --> */}
           <div className="lg:w-[27%]">
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-              TW Elements
+            <span className=" text-blue-600">Mehbub </span> -Portfolio 
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet
+            Building bridges between vision and reality through clean code and captivating design. Passionate about crafting exceptional web experiences that leave a lasting impression
             </p>
           </div>
           {/* <!-- Products section --> */}
 
           {/* <!-- Useful links section --> */}
           <div className="">
-            <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            <h6 className="mb-4 mt-2 flex justify-center font-semibold uppercase md:justify-start">
               Useful links
             </h6>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200">Pricing</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200">Settings</a>
+            <a 
+          className="text-neutral-600 dark:text-neutral-200"
+          href="/"
+        >
+          Services
+        </a>
             </p>
            
           </div>
@@ -88,31 +85,31 @@ export default function Footer() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                fill="currentColor"
+                fill="blue"
                 className="mr-3 h-5 w-5"
               >
                 <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
                 <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
               </svg>
-              New York, NY 10012, US
+              Silchar, Assam, India
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                fill="currentColor"
+                fill="blue"
                 className="mr-3 h-5 w-5"
               >
                 <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                 <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
               </svg>
-              info@example.com
+              mehbub.co@gmail.com
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                fill="currentColor"
+                fill="blue"
                 className="mr-3 h-5 w-5"
               >
                 <path
@@ -121,7 +118,7 @@ export default function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-              + 01 234 567 88
+              +91 86** **** **
             </p>
             
           </div>
@@ -129,11 +126,11 @@ export default function Footer() {
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className=" bg-slate-800 text-white p-4 text-center">
-        <span>© 2024 Copyright: </span>
+      <div className=" bg-slate-900 text-white p-4 text-center">
+        <span>© 2024 Copyright 💙 </span>
         <a
-          className="font-semibold text-white"
-          href="https://tw-elements.com/"
+          className="font-semibold text-blue-700"
+          href="/"
         >
           {" "}
           Mehbub

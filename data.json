@@ -1,12 +1,11 @@
 {
   "main": {
     "name": "Mehbub Lxr",
-    "shortDesc": "Software Engineer. A self-taught developer with an interest in Computer Science.",
+    "shortDesc": "A self-taught developer with an interest in Computer Science.",
     "titles": [
       "Software Development",
       "Frontend Development",
-      "Backend Development",
-      "Blockchain Development"
+      "Backend Development"
     ],
     "heroImage": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707186749/mehbub_r4vm6z.png",
     "techStackImages": [
@@ -25,7 +24,7 @@
     "title": "Mehbub Laskar",
     "about": "An aspiring Full-Stack developer based in India, currently pursuing a degree in Computer Science Engineering. My journey in web development began during my first year of college. Eager to contribute to innovative projects, I strive to create beautiful, functional, and user-friendly websites and applications. Committed to continuous learning, I enjoy building projects to enhance my skills and expertise in the dynamic field of technology.",
     "callUrl": "",
-    "resumeUrl": "https://abdulrahman.id/"
+    "resumeUrl": "https://mehbub.vercel.app"
   },
   "skills": [
     {
@@ -151,21 +150,33 @@
     
   ],
   "projects": [
+
     {
-      "name": "Service Website",
-      "techstack": "HTML5, CSS3, JavaScript, Reactjs",
-      "category": "OTHER",
-      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707320012/My-react-prfghroject_djmpbr.png",
+      "name": "NPM Package/Code-docs-generator",
+      "techstack": "woocommerce, Elementor",
+      "category": "OTHERS",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707735923/img3_x0hr0d.png",
       "links": {
         "code": "https://github.com/Mahbub100",
         "video": "",
-        "visit": "https://service-50.netlify.app/"
+        "visit": ""
+      }
+    },
+    {
+      "name": "Digital Marketing Site",
+      "techstack": "HTML5, CSS3, JavaScript, Reactjs",
+      "category": "Web Development",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707735924/img1_eondvr.png",
+      "links": {
+        "code": "https://github.com/Mahbub100",
+        "video": "",
+        "visit": "https://delux-roan.vercel.app/"
       }
     },
     {
       "name": "Livestream Site",
       "techstack": "HTML5, CSS3, JavaScript, Agora",
-      "category": "OTHER",
+      "category": "Web Development",
       "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707320009/MeetUP_bzb3gj.png",
       "links": {
         "code": "https://github.com/Mahbub100",
@@ -173,21 +184,33 @@
         "visit": "https://meetup1.vercel.app/"
       }
     },
+
     {
-      "name": "Project Title",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "FULL STACK",
-      "image": "",
+      "name": "Chrome Extension",
+      "techstack": "HTML5, CSS3, JavaScript, typeScript",
+      "category": "Web Development",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707735922/img2_matn33.png",
+      "links": {
+        "code": "https://github.com/Mahbub100",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Ecommerce Solution",
+      "techstack": "woocommerce, Elementor",
+      "category": "Web Development",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707735927/blog-4_hob4av.png",
       "links": {
         "code": "",
-        "video": "",
+        "video": "https://res.cloudinary.com/dgbnudkpj/video/upload/v1707736022/video_rxr0pd.mp4",
         "visit": ""
       }
     },
     {
       "name": "Affiliate marketing Blog",
       "techstack": "HTML5, CSS3, Blogger",
-      "category": "OTHER",
+      "category": "Web Development",
       "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707318892/Best-Deals_inlvdv.png",
       "links": {
         "code": "",
@@ -195,6 +218,17 @@
         "visit": "https://www.coin360.in/"
       }
     }
+
+
+
+
+
+
+
+
+
+
+
   ],
   "educations": [
     {
