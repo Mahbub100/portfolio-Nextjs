@@ -153,7 +153,7 @@
 
     {
       "name": "NPM Package/Code-docs-generator",
-      "techstack": "woocommerce, Elementor",
+      "techstack": "javascript, typescript",
       "category": "OTHERS",
       "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707735923/img3_x0hr0d.png",
       "links": {
@@ -175,7 +175,7 @@
     },
     {
       "name": "Livestream Site",
-      "techstack": "HTML5, CSS3, JavaScript, Agora",
+      "techstack": "Reactjs, Agora",
       "category": "Web Development",
       "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707320009/MeetUP_bzb3gj.png",
       "links": {
