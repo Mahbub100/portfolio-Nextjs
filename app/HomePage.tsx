@@ -32,8 +32,8 @@ const HomePage = ({ data }: Props) => {
             <a href="https://wa.me/8638357433?text=Thanks for reaching out! We'll get back to you shortly. ?" target='_blank'>
             <Image className=' cursor-pointer'
       src="/whatsapp.png"
-      width={65}
-      height={65}
+      width={55}
+      height={55}
       alt="whatsapp"
     />
             </a>
