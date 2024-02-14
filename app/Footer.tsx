@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
   faFacebook,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
@@ -10,37 +11,38 @@ export default function Footer() {
     <footer className=" bg-black text-gray-400 lg:text-left">
       <div className="flex items-center justify-center border-b-1 border-neutral-200 pt-5 lg:justify-between lg:px-44 flex-col lg:flex-row">
         <div className=" lg:block p-5">
-          <span>Keep Rising Connect With Me Over <span className=" text-blue-600">Social Media</span></span>
+          <span>
+            Keep Rising Connect With Me Over{" "}
+            <span className=" text-blue-600">Social Media</span>
+          </span>
         </div>
         {/* <!-- Social network icons container --> */}
         <div className="flex justify-center">
           <a className="mr-6">
-            <a
-              href="/"
-              className="youtube social"
-            >
+            <a href="/" className="youtube social" target="_blank">
               <FontAwesomeIcon icon={faYoutube} size="2x" />
             </a>
           </a>
+
           <a className="mr-6 ">
             <a
-              href="/"
-              className="facebook social"
+              href="https://www.linkedin.com/in/mehbub/"
+              className="linkedin social"
+              target="_blank"
             >
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </a>
 
           <a className="mr-6">
-          <a
-              href="/"
+            <a
+              href="https://www.facebook.com/mehbub88"
               className="facebook social"
-              
+              target="_blank"
             >
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
           </a>
-          
         </div>
       </div>
 
@@ -50,10 +52,12 @@ export default function Footer() {
           {/* <!-- TW Elements section --> */}
           <div className="lg:w-[27%]">
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-            <span className=" text-blue-600">Mehbub </span> -Portfolio 
+              <span className=" text-blue-600">Mehbub </span> -Portfolio
             </h6>
             <p>
-            Building bridges between vision and reality through clean code and captivating design. Passionate about crafting exceptional web experiences that leave a lasting impression
+              Building bridges between vision and reality through clean code and
+              captivating design. Passionate about crafting exceptional web
+              experiences that leave a lasting impression
             </p>
           </div>
           {/* <!-- Products section --> */}
@@ -67,14 +71,10 @@ export default function Footer() {
               <a className="text-neutral-600 dark:text-neutral-200">Pricing</a>
             </p>
             <p className="mb-4">
-            <a 
-          className="text-neutral-600 dark:text-neutral-200"
-          href="/"
-        >
-          Services
-        </a>
+              <a className="text-neutral-600 dark:text-neutral-200" href="/">
+                Services
+              </a>
             </p>
-           
           </div>
           {/* <!-- Contact section --> */}
           <div>
@@ -120,7 +120,6 @@ export default function Footer() {
               </svg>
               +91 86** **** **
             </p>
-            
           </div>
         </div>
       </div>
@@ -128,10 +127,7 @@ export default function Footer() {
       {/* <!--Copyright section--> */}
       <div className=" bg-slate-900 text-white p-4 text-center">
         <span>© 2024 Copyright 💙 </span>
-        <a
-          className="font-semibold text-blue-700"
-          href="/"
-        >
+        <a className="font-semibold text-blue-700" href="/">
           {" "}
           Mehbub
         </a>

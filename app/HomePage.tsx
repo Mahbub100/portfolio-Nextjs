@@ -28,8 +28,8 @@ const HomePage = ({ data }: Props) => {
             <Experiences experienceData={data.experiences} educationData={data.educations} />
             <Contact />
           <Footer/>
-          <div className='fixed bottom-3 left-3 z-10000 animate-bounce'>
-            <a href="https://wa.me/8638357433?text=Hello How can i help you ?" target='_blank'>
+          <div className='fixed bottom-3 left-3 z-10000 animate-ping'>
+            <a href="https://wa.me/8638357433?text=Thanks for reaching out! We'll get back to you shortly. ?" target='_blank'>
             <Image className=' cursor-pointer'
       src="/whatsapp.png"
       width={65}
