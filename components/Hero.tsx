@@ -5,7 +5,6 @@ import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from 'react-icons/io';
 import wavingHand from '@/public/waving-hand.gif';
 import { main } from '@/types/main';
-import Link from "next/link";
 
 interface HeroProps {
     mainData: main
@@ -73,7 +72,7 @@ const Hero = ({ mainData }: HeroProps) => {
                     </a> */}
 
 <br />
-                    <div
+                    <ScrollLink
                         className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 hover:dark:bg-blue-800 transition-colors group text-white shadow-lg"
                         to={'about'}
                         offset={-60}
@@ -83,7 +82,7 @@ const Hero = ({ mainData }: HeroProps) => {
                     >
                         About Me
                         <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
-                    </div>
+                    </ScrollLink>
 
                 </div>
 
