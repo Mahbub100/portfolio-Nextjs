@@ -7,19 +7,21 @@
       "Frontend Development",
       "Backend Development"
     ],
+    
     "heroImage": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707186749/mehbub_r4vm6z.png",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/typescript.png",
       "https://img.icons8.com/color/144/000000/nextjs.png",
       "https://img.icons8.com/color/144/000000/material-ui.png",
       "https://img.icons8.com/color/144/000000/html-5--v1.png"
+      
     
       
       
     ]
   },
   "about": {
-    "aboutImage": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707186749/mehbub_r4vm6z.png",
+    "aboutImage": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1710597174/Untitled_design_rwgk3b.png",
     "aboutImageCaption": "< Let's do something 🚀/>",
     "title": "Mehbub Laskar",
     "about": "An aspiring Full-Stack developer based in India, currently pursuing a degree in Computer Science Engineering. My journey in web development began during my first year of college. Eager to contribute to innovative projects, I strive to create beautiful, functional, and user-friendly websites and applications. Committed to continuous learning, I enjoy building projects to enhance my skills and expertise in the dynamic field of technology."
@@ -162,6 +164,17 @@
       }
     },
     {
+      "name": "Resume Builder",
+      "techstack": "ReactJs, Javascript",
+      "category": "OTHERS",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1710606110/Screenshot_from_2024-03-16_21-49-47_otml3k.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://resumme24.netlify.app/"
+      }
+    },
+    {
       "name": "Digital Marketing Site",
       "techstack": "HTML5, CSS3, JavaScript, Reactjs",
       "category": "Web Development",
@@ -176,11 +189,11 @@
       "name": "Livestream Site",
       "techstack": "Reactjs, Agora",
       "category": "Web Development",
-      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1707320009/MeetUP_bzb3gj.png",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1710605440/Screenshot_from_2024-03-16_19-41-18_fxtfpi.png",
       "links": {
         "code": "https://github.com/Mahbub100",
         "video": "",
-        "visit": "https://meetup1.vercel.app/"
+        "visit": "https://meetup-omega-pied.vercel.app/"
       }
     },
 
@@ -216,6 +229,17 @@
         "video": "",
         "visit": "https://www.coin360.in/"
       }
+    },
+    {
+      "name": "Multi Language Personal blog",
+      "techstack": "Elementor",
+      "category": "Web Development",
+      "image": "https://res.cloudinary.com/dgbnudkpj/image/upload/v1710605430/Screenshot_from_2024-03-16_19-48-03_ha6l1r.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "http://mehbublaskar.42web.io/"
+      }
     }
 
 
@@ -231,13 +255,13 @@
   ],
   "educations": [
     {
-      "institute": "Govt. Boys Silchar  | SEBA",
+      "institute": "Govt. Boys Silchar  | AHSEC",
       "degree": "HS Science",
       "duration": "2019 - 2021",
       "desc": [
-        "Familiar With Physics",
-        "Familiar With Chemistry",
-        "Familiar With Mathematics"
+        "Physics",
+        "Chemistry",
+        "Mathematics"
       ]
     },
     {
@@ -256,7 +280,7 @@
   "experiences": [
   
     {
-      "company": "ABC Tech Solutions",
+      "company": "Xiivar Solutions",
       "position": "Fullstack Developer",
       "duration": "2023 - present",
       "desc": [

@@ -51,8 +51,14 @@ export default function Footer() {
         <div className="flex lg:flex-row justify-between lg:px-40 flex-col">
           {/* <!-- TW Elements section --> */}
           <div className="lg:w-[27%]">
-            <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-              <span className=" text-blue-600">Mehbub </span> -Portfolio
+            <h6 className="mb-4 flex items-center justify-center font-semibold md:justify-start">
+              <span className=" text-blue-600"> <a
+              href="https://www.linkedin.com/in/mehbub/"
+      
+              target="_blank"
+            >
+            Mehbub
+            </a></span>-Portfolio
             </h6>
             <p>
               Building bridges between vision and reality through clean code and
@@ -68,11 +74,11 @@ export default function Footer() {
               Useful links
             </h6>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200">Pricing</a>
+              <a className="text-neutral-600 dark:text-neutral-200"  href="https://www.linkedin.com/in/mehbub/"> Certificate</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200" href="/">
-                Services
+              <a className="text-neutral-600 dark:text-neutral-200"  href="https://www.linkedin.com/in/mehbub/">
+              Gallery
               </a>
             </p>
           </div>
@@ -126,10 +132,10 @@ export default function Footer() {
 
       {/* <!--Copyright section--> */}
       <div className=" bg-slate-900 text-white p-4 text-center">
-        <span>© 2024 Copyright 💙 </span>
-        <a className="font-semibold text-blue-700" href="/">
+        <span>@2K24 Copyright 💙 </span>
+        <a className="font-semibold text-blue-700"  href="https://www.linkedin.com/in/mehbub/">
           {" "}
-          Mehbub
+          Mehbub Laskar
         </a>
       </div>
     </footer>

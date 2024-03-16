@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from 'react-icons/io';
 import wavingHand from '@/public/waving-hand.gif';
 import { main } from '@/types/main';
+import Link from "next/link";
 
 interface HeroProps {
     mainData: main
@@ -18,14 +19,14 @@ const Hero = ({ mainData }: HeroProps) => {
     return (
         <section id='home' className={`${theme === 'dark' && "bg-grey-900"} relative min-h-65vh w-full mx-auto overflow-hidden`}>
 
-            <div className="absolute -z-100 min-h-65vh h-full w-full p-12">
+            <div className="absolute -z-150 min-h-68vh h-full w-full p-12">
                 <Image
                     src="/circuit-board.svg"
                     layout="fill"
                     objectFit="cover"
                     loading='lazy'
                     className='object-bottom'
-                    quality={100} alt={''} />
+                    quality={80} alt={''} />
             </div>
 
             <div className="py-16 lg:pt-40 flex flex-col-reverse lg:flex-row justify-around gap-10 lg:gap-0 ">
@@ -72,8 +73,8 @@ const Hero = ({ mainData }: HeroProps) => {
                     </a> */}
 
 <br />
-                    <ScrollLink
-                        className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 hover:dark:bg-blue-800 transition-colors group text-white"
+                    <div
+                        className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 hover:dark:bg-blue-800 transition-colors group text-white shadow-lg"
                         to={'about'}
                         offset={-60}
                         smooth={true}
@@ -82,7 +83,8 @@ const Hero = ({ mainData }: HeroProps) => {
                     >
                         About Me
                         <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
-                    </ScrollLink>
+                    </div>
+
                 </div>
 
                 <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-1">
@@ -90,16 +92,16 @@ const Hero = ({ mainData }: HeroProps) => {
                         <Image alt='avatar' width={1000} height={1000} className="rounded-full w-full h-full object-cover" src={heroImage} />
                     </div>
 
-                    <div className="absolute grid -top-6 -left-12 lg:-top-14 lg:-left-32 w-16 h-16 md:w-20 md:h-20 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
+                    <div className="absolute grid -top-6 -left-12 lg:-top-14 lg:-left-32 w-16 h-16 md:w-20 md:h-20 bg-white dark:bg-grey-800 rounded-full place-items-center shadow-md hover:shadow-lg transition-shadow">
                         <Image alt='tech-stack' className="h-8 w-8 md:h-10 md:w-10 object-cover" src={techStackImages[0]} width={100} height={100} />
                     </div>
-                    <div className="absolute grid top-0 -right-12 lg:-right-4 w-14 h-14 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
+                    <div className="absolute grid top-0 -right-12 lg:-right-4 w-14 h-14 bg-white dark:bg-grey-800 rounded-full place-items-center shadow-md hover:shadow-lg transition-shadow">
                         <Image alt='tech-stack' className="h-8 w-8 md:h-10 md:w-10 object-cover" src={techStackImages[1]} width={100} height={100} />
                     </div>
-                    <div className="absolute grid bottom-[4rem] md:bottom-24 -right-16 md:-right-20 lg:bottom-[8.5rem] lg:-right-12 w-12 h-12 md:w-16 md:h-16 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
+                    <div className="absolute grid bottom-[4rem] md:bottom-24 -right-16 md:-right-20 lg:bottom-[8.5rem] lg:-right-12 w-12 h-12 md:w-16 md:h-16 bg-white dark:bg-grey-800 rounded-full place-items-center shadow-md hover:shadow-lg transition-shadow">
                         <Image alt='tech-stack' className="h-6 w-6 md:h-10 md:w-10 object-cover" src={techStackImages[2]} width={100} height={100} />
                     </div>
-                    <div className="absolute grid -bottom-10 -right-8 lg:-bottom-0 lg:right-6 w-14 md:w-16 h-14 md:h-16 bg-white dark:bg-grey-800 rounded-full place-items-center hover:shadow-lg transition-shadow">
+                    <div className="absolute grid -bottom-10 -right-8 lg:-bottom-0 lg:right-6 w-14 md:w-16 h-14 md:h-16 bg-white dark:bg-grey-800 rounded-full place-items-center shadow-md hover:shadow-lg transition-shadow">
                         <Image alt='tech-stack' className="h-10 w-10 object-cover" src={techStackImages[3]} width={100} height={100} />
                     </div>
                 </div>
